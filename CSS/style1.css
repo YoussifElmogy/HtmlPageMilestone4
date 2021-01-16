@@ -1,0 +1,517 @@
+
+
+body{
+    overflow-x: hidden;
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif !important;
+   
+}
+.Header{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(54, 62, 65);
+    background-image: 
+    linear-gradient(to bottom, rgba(78, 81, 92, 0.8), rgba(78, 81, 92, 0.8)),
+    url(../Media/banner.jpg);
+
+}
+.links a{
+    float: left;
+    position: relative;
+    top:35px;
+    padding-left: 200px;
+    color: white;
+
+}
+.links a:hover{
+    text-decoration: none;
+    color: white;
+
+}
+#Rlinks a{
+    float: right;
+    margin-right: 30px;
+    position: relative;
+    right: 200px;
+    top: 35px;
+    color: white;
+    text-decoration: none;
+
+}
+.Header hr,.hr hr{
+    width: 1110px;
+    position: relative;
+    right: 12px;
+    top: 32px;
+    background-color:lightgray;
+    border: none; 
+    height: 1.7px; 
+    opacity: 30%;
+}
+#welcome h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+#body{
+    padding-top: 140px;
+}
+.innerbody{
+    display: flex;
+    justify-content: center;
+}
+.inner{
+    float: left;
+    margin-left: 160px;
+    text-align: center;
+    color: white;
+    position: relative;
+    right: 90px;
+    
+}
+.inner p{
+    opacity: 50%;
+}
+#horline{
+    width: 100x;
+height: 100px;
+background-color: transparent;
+border-bottom:none;
+border-left: 1.5px solid  lightgray;
+border-top: none;
+border-right: none;
+float: right;
+position: relative;
+bottom: 120px;
+left: 80px;
+opacity: 30%;
+
+}
+ .fa{
+  color: #6CC091;
+  font-size: 30px;
+  padding-bottom: 14px;
+} 
+.button{
+    font-size: 13px;
+    color: #6CC091;
+        background-color: transparent;
+    border: 3px solid #6CC091;
+    border-radius: 24px;
+    text-decoration: none;
+    width: 187px;
+    height: 44px;
+    position: relative;
+    left: 670px;
+    bottom: 30px;
+    opacity: 90%;
+    
+}
+.button:hover{
+    background-color:rgba(64, 107, 96, 0.486);
+    
+    color: #6CC091;
+    transition-duration: 0.6s;
+    
+}
+#secondpage{
+    width: 100vw;
+    height: 84vh;
+    background-color: white;
+}
+.secondtop{
+    position: relative;
+    bottom: 64px;
+}
+.s1{
+    text-align: center;
+   
+    width: 50%;
+    margin:150px auto;
+    padding: 20px;
+    float: left;  
+  
+    
+}
+.s1 p{
+    opacity: 50%;
+    padding-top: 20px;
+}
+.s1 h3{
+    color: #555555;
+    padding-top: 20px;
+}
+.s1 img{
+    border-radius: 50%;
+}
+.button2{
+    position: relative;
+    left: 0px;
+    top: 20px;
+}
+.button2:hover{
+    background-color:rgba(226, 238, 235, 0.808);
+    color: #6CC091;
+    transition-duration: 0.6s;
+
+}
+
+.thirdpage{
+    width: 100vw;
+    height: 100vh;
+    background-color: #6CC091;
+}
+.thirdbody h3{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 100px;
+
+}
+.topform{
+    float: left;
+    padding-right: 42px;
+    position: relative;
+    top: 170px;
+    left: 170px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+.formchange{
+width: 580px;
+background-color: transparent;
+border: 2px solid lightgray;
+opacity: 40%;
+border-radius: 12px;
+height: 44px;
+position: relative;
+top: 10px;
+right: 0px;
+outline: none;
+
+}
+::placeholder {
+    color: white;
+    opacity: 70%;
+    font-size: 15px;
+   position: relative;
+   left: 13px;
+  
+  }
+
+  .noborder{
+      overflow: hidden;
+      width: 1200px;
+      height: 200px;
+      padding-top: 10px;
+     
+  }
+  .bottomform{
+    padding-top: 40px;
+  }
+  .button3{
+    font-size: 13px;
+    color: white;
+        background-color: transparent;
+    border: 3px solid white;
+    border-radius: 24px;
+    text-decoration: none;
+    width: 200px;
+    height: 44px;
+    position: relative;
+    right: 570px;
+    top: 550px;
+    opacity: 90%;
+   
+  }
+  .button3:hover{
+    background-color:rgba(226, 214, 214, 0.233);
+    color: white;
+    transition-duration: 0.6s;
+
+  }
+  .cr{
+      position: relative;
+      right: 610px;
+    top: 570px;
+    color: white;
+    font-size: 12px;
+    opacity: 50%;
+  }
+  .cr a{  
+  color: white;
+
+}
+.cr a:hover{
+    
+    color: rgb(255, 255, 255);
+    opacity: 100%;
+    text-decoration: none;
+}
+
+.myClickState{
+    border: 3px solid rgb(19, 138, 19);
+    opacity: 35%;
+    border-radius: 12px;
+    outline: none;
+    color: white;
+}
+#navbar {
+    width: 100vw;
+    height: 6vh ;
+    background-color: #6CC091 ;
+    z-index: 2;
+    
+  
+}
+.links2 a{
+    position: relative;
+    top: 10px;
+}
+#Rlinks2 a{
+    float: right;
+    margin-right: 30px;
+    position: relative;
+    right: 200px;
+    top: 12px;
+    color: white;
+    text-decoration: none;
+
+}
+#undernav{
+    width: 100vw;
+    height: 130vh;
+    background-color: white;
+  
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .header2{
+      text-align: center;
+      position: relative;
+      top: 100px;
+      right: 42px;
+  }
+  .header2 h1{
+     
+      opacity: 90%;
+      
+  }
+  .header2 p{
+      opacity: 35%;
+  }
+
+  .leftside img{
+      float: left;
+      border-radius: 50%;
+      margin-right: 20px;
+  }
+  .leftside{
+      position: relative;
+      left: 100px;
+      top: 133px;
+
+  }
+  .leftside p{
+      padding-right: 120px;
+      margin-right: 190px;
+      padding-top: 2px;
+      opacity: 50%;
+      
+  }
+  .right img{
+float: right;
+position: relative;
+right: 130px;
+  }
+
+  .right p{
+      margin-left: 130px;
+      
+  }
+  .right{
+      position: relative;
+      left: -20px;
+  }
+ #changge{
+     position: relative;
+    left: 50px;
+ }
+.ch3{
+    position: relative;
+    bottom: 114px;
+}
+.body3{
+    position: relative;
+    left: 40px;
+}
+.lbody3{
+  
+    text-align: left;
+    position: relative;
+    top: 180px;
+    left: 80px;
+    float: left;
+    padding-right: 50px;
+ 
+}
+.lbody3 p{
+    margin-top: 45px;
+    opacity: 55%;
+  
+   
+    
+ 
+}
+#h3change{
+
+    opacity: 65%;
+    font-weight: 100;
+   
+}
+.lbody3 p a{
+    color: #6CC091;
+}
+.lbody3 h3{
+    font-weight: 100;
+    opacity: 80%;
+}
+.hr hr{
+    width: 1300px;
+    position: relative;
+    top: 460px;
+    right: 40px;
+    opacity: 70%;
+    height: 1.1px; 
+}
+.lbody5{
+    position: relative;
+    top: 320px;
+    padding-bottom: 30px;
+    
+}
+.hr2 hr{
+    position: relative;
+    top: 1230px;
+}
+.Elements{
+    position: relative;
+    left: 120px;
+}
+#elements{
+    font-weight: 100;
+    font-size: 23px;
+    padding-bottom: 33px;
+  
+}
+.text p{
+    padding-top: 33px;
+}
+.ctext:not(#bold){
+    opacity: 60%;
+   
+}
+.code{
+    font-size: 15px;
+    color: black;
+    letter-spacing: 1.5px;
+    word-spacing: 3px;
+    background-color: #e0d9d988;
+    border: 1px solid lightgray;
+    padding:4px;
+}
+.text hr{
+    width: 600px;
+    position: relative;
+    right: 463px;
+    top: 18px;
+}
+#headings{
+    padding-top: 40px;
+   
+}
+#headings h2,h5,h6{
+    opacity: 60%;
+    font-weight: 100;
+}
+
+.gbtn{
+    
+    font-size: 12px;
+    color: white;
+        background-color: #7EC89E;
+    border: 3px solid #7EC89E;
+    border-radius: 24px;
+    text-decoration: none;
+    width: 187px;
+    height: 44px;
+    opacity: 90%; 
+    margin-top: 30px;
+    
+   
+
+}
+.special{
+    width: 150px;
+}
+.big{
+    width: 210;
+    height: 75px;
+}
+.icon {
+    width: 120;
+}
+.gbtn2{
+    
+    font-size: 12px;
+    color:#7EC89E;
+        background-color:transparent;
+    border: 3px solid #7EC89E;
+    border-radius: 24px;
+    text-decoration: none;
+    width: 187px;
+    height: 44px;
+    opacity: 90%; 
+    margin-top: 30px;
+    margin-left: 15px;
+   
+}
+.dft{
+    width: 150px;
+}
+.icon2{
+    width: 120px;
+}
+
+.gbtn3{
+
+font-size: 12px;
+color: white;
+width: 420px;
+
+ opacity: 100%;
+ border: none;
+
+border-radius: 24px;
+text-decoration: none;
+width: 187px;
+height: 44px;
+margin-top: 40px;
+margin-right: 10px;
+}
+.sp{
+    width: 150px;
+    
+}
+.alt{
+    width: 170px;
+}
+.btn2{
+    position:absolute;
+    left: 680px;
+    bottom: -10px;
+    
+}
